@@ -43,7 +43,7 @@ html{
   /* Style the links inside the navigation bar */
   .topnav a {
     color: #000;
-    font-weight: bolder;
+    font-weight: 600;
     text-decoration: none;
     font-size: 17px; 
     margin-left: 50px;
@@ -61,6 +61,7 @@ html{
      padding: 20px;
      overflow: hidden;
      margin: 50px;
+     font-weight: 1000;
    
   }
   .image img{
@@ -73,7 +74,7 @@ html{
    
   }
   .head h2{
-    font-weight: bolder;
+    font-weight: 600px;
     font-size: 40px;
     grid-column: 1/-1;
    
@@ -106,7 +107,7 @@ html{
   border: none;
   outline: none;
   position: absolute;
-  margin-left: -25px;
+  margin-left: -35px;
   
 }
 
@@ -133,7 +134,20 @@ html{
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 
+}
+.box .button a{
+  text-decoration: none;
+  color: #100E1D;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bolder;
+
 } 
+.box .button{
+  margin-top: 30px;
+
+}
 .input-group{
   display: flex;
   padding: 38px;
@@ -151,7 +165,7 @@ html{
 }
 .end{
   margin-top: -20%;
-  font-weight: bolder
+  font-weight: 600;
 }
  .dashboard{
   display: flex;
@@ -164,6 +178,7 @@ html{
   display: flex;
   margin-left: 70px;
   grid-gap: 15px;
+  font-weight: 800;
   
 }
 .gallery {
@@ -190,7 +205,7 @@ html{
    
 } 
 .offer{
-  font-weight: bolder;
+  font-weight: 600;
   margin-top: 40px;
 
 }
